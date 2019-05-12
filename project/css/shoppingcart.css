@@ -1,0 +1,39 @@
+header{height:60px;}
+
+main{background: #e4e4e4a8;padding:10px 0 30px 0;}
+main .cart{background:#fff;border-radius:8px;}
+main .cart .title{font:16px/2 "";overflow:hidden;}
+main .cart .title strong{float:left;margin:15px 0 0 15px;}
+main .cart .title .empty{float:right;margin:20px 20px 0 0;}
+main .cart .title .empty:hover{color:#00f;}
+main .cart form{width:1170px;height:275px;margin:0 auto;}
+main .cart form table{width:100%;text-align:center;}
+main .cart form table tbody{width:100%;}
+main .cart form table tbody tr{width:100%;font:16px/3 "";}
+main .cart form table tbody tr.g_log{width:100%;font:700 16px/3 "";}
+main .cart form table tbody tr.g_log span{font:100 12px "";}
+main .cart form table tbody tr.g_log .all{margin-left:20px;}
+main .cart form table tbody tr th{border:1px solid rgb(223, 219, 219);}
+main .cart form table tbody tr td{border:1px solid rgb(223, 219, 219);}
+main .cart form table tbody tr .g_msg a{color:#000;}
+main .cart form table tbody tr .g_msg a:hover{color:#00f;text-decoration:underline;}
+main .cart form table tbody tr .g_msg a img{width:80px;height:80px;margin:10px 40px 10px 0;}
+main .cart form table tbody tr .g_msg .msg{display:inline-block;font:16px/24px "";text-align:left;}
+main .cart form table tbody tr .g_num .txt{width:80px;height:30px;border:1px solid #DAD9D9;text-align:center;border-left:none;border-right:none;}
+main .cart form table tbody tr .g_num span{display:inline-block;width:30px;height:30px;border:1px solid #DAD9D9;background:rgba(153, 151, 151, 0.1);cursor:pointer;vertical-align:middle;font:18px/30px "";}
+main .cart form table tbody tr .g_num span:hover{background:rgba(185, 183, 183, 0.9);}
+main .cart form table tbody tr .g_num .reduce{border-radius:5px 0 0 5px;}
+main .cart form table tbody tr .g_num .add{border-radius:0 5px 5px 0;}
+main .cart form table tbody tr .g_operation .btn{width:60px;height:38px;background:rgba(210, 23, 29, 0.8);border:none;border-radius:5px;font:16px "";color:#fff;cursor:pointer;}
+main .cart form table tbody tr .g_operation .btn:hover{background:rgba(210, 23, 29, 1);}
+
+main .money{height:200px;background:#fff;margin-top:15px;border-radius:8px;}
+main .money .box{float:right;margin:10px 15px 0 0;font:16px/40px "";text-align:right;}
+main .money .box .red{color:red;}
+main .money .box .pro{margin-bottom:10px;}
+main .money .box .again{width:90px;height:40px;background:rgba(92, 98, 116, 0.8);border:none;border-radius:5px;font:16px "";color:#fff;cursor:pointer;}
+main .money .box .again:hover{background:rgba(92, 98, 116, 0.95);}
+main .money .box .check{width:76px;height:40px;background:rgba(210, 23, 29, 0.8);border:none;border-radius:5px;font:16px "";color:#fff;cursor:pointer;}
+main .money .box .check:hover{background:rgba(210, 23, 29, 1);}
+
+footer{background:#fff;padding:10px 0 0 0;}

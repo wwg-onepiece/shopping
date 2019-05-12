@@ -1,0 +1,29 @@
+#Register{background:url(../picture/loginbg2.jpg) no-repeat;background-size:1200px 440px;height:440px;width:1200px;}
+#Register .register{width:500px;height:420px;background:#ffff;float:right;margin:10px 10px 0 0;border-radius:5px;}
+#Register .register div{margin:25px 0 0 50px;}
+#Register .register div span{font:12px/2 "微软雅黑";color:#5e5e5e;}
+#Register .register div .same{width:170px;height:25px;border:1px solid #DAD9D9;}
+#Register .register div .v_code{width:76px;height:25px;border:1px solid #DAD9D9;}
+#Register .register .V_code .num{width:40px;height:20px;text-align:center;font:700 14px "";}
+#Register .register div .cbtn{width:74px;border:1px solid rgb(201, 200, 200);background-color: rgba(224, 216, 216, 0.404);cursor:pointer;font:12px/2 "";color:#333}
+#Register .register .Pass{margin-left:62px;position:relative;}
+#Register .register .Pass .strength{position:absolute;right:50px;top:-45px;}
+#Register .register .Pass .strength .progress{width:159px;height:13px;border:1px solid rgb(173, 172, 172);border-radius:7px;position:relative;}
+#Register .register .Pass .strength .progress div{width:49px;height:9px;background:rgb(209, 206, 206);position:absolute;}
+#Register .register .Pass .strength .progress .left{top:-23px;left:-47px;border-radius:4px 0 0 4px;}
+#Register .register .Pass .strength .progress .center{top:-23px;left:5px;}
+#Register .register .Pass .strength .progress .right{top:-23px;left:57px;border-radius:0 4px 4px 0;}
+#Register .register .Pass .strength .lr{margin-left:70px;}
+#Register .register .Pass .strength .cz{margin:0 36px;}
+#Register .register .checkbox{margin-left:104px;}
+#Register .register .checkbox a:hover{color:#7f5b42;text-decoration:underline;}
+#Register .register .ok{margin-left:104px;}
+#Register .register .ok .ibtn{width:190px;font:16px/44px "";background:#fff;border:1px solid #DAD9D9;color:#5e5e5e;cursor:pointer;}
+#Register .register .ok .ibtn:hover{border:1px solid#DAD9D9;background:#DAD9D9;}
+#Register .register .ok a{color:#ff0000;}
+#Register .register .ok a:hover{text-decoration:underline;}
+
+.wrap{position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.5);z-index:100;display:none;}
+.notice {width:400px;height:0;border:1px solid #000;position: absolute;left:50%;top:50%;margin:-50px 0 0 -200px;background:rgba(255,255,255,.7);text-align: center;font:18px/90px '';border:2px solid #fff;padding:5px;background-clip: content-box;border-radius:10px;}
+
+footer{background:#fff;padding:10px 0 0 0;}

@@ -1,0 +1,23 @@
+#Login{background:url(../picture/loginbg3.jpg) no-repeat;background-size:1200px 410px;height:410px;width:1200px;margin:70px auto 50px;}
+#Login .login{width:500px;height:390px;background:rgba(250,250,250,0.9);float:right;margin:10px 10px 0 0;border-radius:5px;}
+#Login .login .title{width:480px;border-bottom:1px solid #666;margin:10px 0 50px 10px;text-align:center;}
+#Login .login .title span{font:700 24px/2 "微软雅黑";color:#7c7079;}
+#Login .login div{margin-bottom:20px;}
+#Login .login .User{margin-left:110px;}
+#Login .login .Pass{margin-left:123px;}
+#Login .login .fill .msg{font:14px/2 "微软雅黑";color:#6b6b6b;margin-right:10px;}
+#Login .login .fill input{width:148px;height:28px;border:1px solid #b8b5b5;border-radius:5px;background-color: transparent;text-indent:5px;}
+/* #Login .login .fill .prompt{color:rgb(196, 14, 14);font:12px "微软雅黑";} */
+#Login .login .Btn{margin-left:180px;}
+#Login .login .Btn .btn{width:52px;height:28px;background:rgba(41, 130, 165, 0.75);color:rgb(240, 236, 236);font:14px/2 "";border:1px solid rgba(76, 81, 94,0.1);cursor:pointer;border-radius:4px;}
+#Login .login .Btn .btn:hover{background:rgba(41, 130, 165, 0.9);}
+#Login .login .Btn a{color:rgb(38, 134, 212);font:12px "微软雅黑";}
+#Login .login .Btn a:hover{text-decoration:underline;}
+#Login .login .help{margin-left:180px;}
+#Login .login .help span{color:#8d8a8a;}
+#Login .login .help a{color:#6b6b6b;font:12px "微软雅黑";}
+
+.wrap{position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.5);z-index:100;display:none;}
+.notice {width:400px;height:0;border:1px solid #000;position: absolute;left:50%;top:50%;margin:-50px 0 0 -200px;background:rgba(255,255,255,.7);text-align: center;font:18px/90px '';border:2px solid #fff;padding:5px;background-clip: content-box;border-radius:10px;}
+
+footer{background:#fff;}

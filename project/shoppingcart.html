@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/ico.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/shoppingcart.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/shoppingcart.js"></script>
+</head>
+<body>
+    <header class="margin">
+        <a href="index.html" class="logo"><img src="imgs/logo.png" /></a>
+    </header>
+
+    <main>
+        <div class="margin">
+            <div class="cart">
+                <div class="title">
+                <strong>我的购物车</strong>
+                <a href="#" class="empty">清空购物车</a>
+                </div>
+                <form>
+                    <table cellspacing:"0">
+                        <tbody>
+                            <tr class="g_log">
+                                <th width="5%">
+                                    <input type="checkbox" class="all" checked="checked" /><span>全选</span>
+                                </th>
+                                <th width="40%">商品信息</th>
+                                <th width="10%">商品单价</th>
+                                <th width="15%">商品数量</th>
+                                <th width="10%">小计</th>
+                                <th width="10%">操作</th>
+                            </tr>
+                            <tr class="g_item">
+                                <td class="g_checkbox">
+                                    <input type="checkbox" class="all" checked="checked" />
+                                </td>
+                                <td class="g_msg">
+                                    <div class="good">
+                                        <a href="#"><img src="http://p1.dapuimg.com/public/images/8b/ce/a3/f6c6e742ab760b5f59e136fcba46ac9a.jpg?1555577132#h" /></a>
+                                        <div class="msg">
+                                            <a href="#">阿瓦提素色毛巾</a>
+                                            <div>颜色：樱花粉 、尺寸：34cm*76cm</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="g_price">￥39</td>
+                                <td class="g_num">
+                                    <span class="reduce">-</span><input type="text" class="txt" value="1" /><span class="add">+</span>
+                                </td>
+                                <td class="g_total">￥39</td>
+                                <td class="g_operation">
+                                    <input type="button" class="btn" value="删除" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+
+            <div class="money">
+                <div class="box">
+                    <p>原始金额：￥</p>
+                    <p class="red">优惠金额：￥</p>
+                    <p class="pro"><strong>商品总金额(不含运费)：</strong>￥</p>
+                    <input type="button" class="again" value="继续购物" />
+                    <input type="button" class="check" value="去结算" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="margin">
+            <div class="msg">
+                <p><a href="#">关于我们</a><span>|</span><a href="#">帮助中心</a><span>|</span><a href="#">练习我们</a><span>|</span><a href="#">更多信息</a></p>
+                <p>Copyright © 2013-2018 dapu.com 北京大朴至向家居设计有限公司  京ICP备12027522号 京ICP证130030号</p>
+                <p><a href="#" class="icon-gongan">京公网安备 11010502030202号</a></p>
+            </div>        
+        </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#banner{width:1200px;position:relative;height:450px;overflow:hidden;}
+#banner .imgbox{position:absolute;height:450px;width:100%;}
+#banner .imgbox a{position:absolute;width:1200px;height:450px;left:1200px;}
+#banner .imgbox a img{width:1200px;height:450px;}
+#banner .btn input{border:none;width:50px;height:50px;background:rgba(178, 205, 226, 0.3);position:absolute;top:200px;display:none;cursor:pointer;border-radius:50%;}
+#banner .btn .left{left:10px;outline:none;}
+#banner .btn .right{right:10px;outline:none; }
+#banner:hover .btn input{display:block;}
+#banner ul{position:absolute;bottom:20px;left:564px;}
+#banner ul li{width:15px;height:15px;border-radius:50%;border:1px solid rgba(0,0,0,0.6);float:left;margin:0 auto;cursor:pointer;}
+#banner ul li.center{margin:0 10px;}
+#banner ul li.active{background:rgba(0,0,0,0.4);}
